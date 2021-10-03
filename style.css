@@ -1,0 +1,189 @@
+.background {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXE8yYpMahepoF1fnZmGqBn_YuZqgJWjNrGQ&usqp=CAU");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.navbar {
+    padding: 20px 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+.navbar-brand {
+    color: rgb(214, 20, 20);
+}
+
+.cls {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: 900;
+    font-size: xx-large;
+    letter-spacing: 0.5px;
+}
+
+.Signbox {
+    width: 350px !important;
+    height: 400px;
+    margin: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    z-index: 2;
+}
+.Signbox2{
+    width: 80px;
+    height: 75px;
+    position:absolute;
+    left: 40px;
+    background-color: aliceblue;
+    border-radius: 200px;
+    z-index: 1;
+}
+h5{
+    margin: 15px;
+    color: white;
+}
+.hrs{
+    height: 2px;
+    margin: 15px auto;
+    width: 60%;
+    /* Set the hr color */
+    color: rgb(255, 255, 255); /* old IE */
+    background-color: rgb(255, 255, 255); /* Modern Browsers */
+}
+.form-control{
+    color: aliceblue;
+    
+    border: none;
+    margin: 5px;
+}
+.data{
+    padding: 20px;
+}
+.btn{
+    margin-top: 20px;
+}
+p{
+    color:white;
+}
+.container-fluid{
+    margin-top: 50px;
+    display: flex;
+    width: 95%;
+    height: fit-content;
+    margin:auto;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+.maintext{
+    margin: auto;
+    padding: 40px;
+    width: 80%;text-align: center;
+}
+
+h1{
+    font-size: 3.5rem;
+    color:white;
+    text-align: center;
+}
+.mainbtn{
+    width: 150px;
+    margin: 30px auto;
+    padding: 15px 20px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    color: chocolate;
+}
+
+
+@media screen and (max-width:1000px) {
+    h1{
+        font-size: 3rem;
+        color:white;
+        text-align: center;
+    }
+}
+@media screen and (max-width:800px) {
+    h1{
+        font-size: 3rem;
+        color:rgb(202, 83, 202);
+        text-align: center;
+    }
+    .container-fluid{
+        display: block;
+        width: 90%;
+        height: fit-content;
+        margin:auto;
+        text-align: center;
+        justify-content: space-evenly;
+    
+    }
+    .maintext{
+        margin: auto;
+        color: rgb(189, 96, 218);
+        padding: 40px;
+        margin-right: 40px;
+        width: 80%;text-align: center;
+    }
+    .Signbox {
+        width: 350px !important;
+        height: 400px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 200px !important;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        z-index: 2;
+    }
+    .navbar {
+        padding: 20px 30px;
+        font-weight: 800;
+    
+    }
+    .mainbtn{
+        width: 150px;
+        margin: 30px auto;
+        padding: 15px 20px;
+        background-color: rgb(202, 83, 202);
+        border-radius: 40px;
+        color:white;
+    }
+
+}
+@media screen and (max-width:660px) {
+    .maintext{
+        margin: auto;
+        color: rgb(189, 96, 218);
+        padding: 10px;
+        width: 95%;
+        text-align: center;
+    }
+    h1{
+        font-size: 2.5rem;
+        color:rgb(202, 83, 202);
+        text-align: center;
+    }
+    .mainbtn{
+        width: 150px;
+        margin: 30px auto;
+        padding: 15px 20px;
+        background-color: rgb(202, 83, 202);
+        border-radius: 40px;
+        color:white;
+    }
+    
+} 
